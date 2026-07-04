@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import dotenv from "dotenv";
-// dotenv.config();
 
 const REPO_URL =  import.meta.env.VITE_GITHUB_REPO_URL;
 const INSTALL_URL = import.meta.env.VITE_GITHUB_APP_INSTALL_URL;
