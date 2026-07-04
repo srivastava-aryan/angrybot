@@ -149,11 +149,11 @@ const FEATURES = [
   },
   {
     label: "[ CONFIGURABLE MODEL ]",
-    desc: "Swap between GPT-4o, GPT-4o-mini, or any OpenAI model via a single env var. No code changes needed.",
+    desc: "Swap between Gemini 2.5, Gemini 2.5 Flash, or any Google Gemini model via a single env var. No code changes needed.",
   },
 ];
 
-const TECH = ["Node.js", "Express", "LangChain", "OpenAI", "Octokit", "GitHub Apps API", "HMAC-SHA256", "Render"];
+const TECH = ["Node.js", "Express", "LangChain", "Google Gemini", "Octokit", "GitHub Apps API", "HMAC-SHA256", "Render"];
 
 const colors = {
   bg: "#0a0a0a",
@@ -354,7 +354,7 @@ export default function AIPRReviewerLanding() {
             </div>
 
             <p className="mt-7 mono text-xs" style={{ color: colors.textDimmer }}>
-              Open source · Free to self-host · Powered by LangChain + OpenAI
+              Open source · Free to self-host · Powered by LangChain + Google Gemini
             </p>
           </div>
         </section>
