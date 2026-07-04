@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import dotenv from "dotenv";
+// dotenv.config();
 
-const REPO_URL = "#"; // process.env.GITHUB_REPO_URL;
-const INSTALL_URL = "#"; // process.env.GITHUB_APP_INSTALL_URL;
+const REPO_URL =  import.meta.env.VITE_GITHUB_REPO_URL;
+const INSTALL_URL = import.meta.env.VITE_GITHUB_APP_INSTALL_URL;
 
 function useReveal() {
   const ref = useRef(null);
@@ -419,7 +420,7 @@ export default function AIPRReviewerLanding() {
                 <div className="bot-avatar" />
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="mono text-sm font-semibold">ai-pr-reviewer[bot]</span>
+                    <span className="mono text-sm font-semibold">code-my-war[bot]</span>
                     <span
                       className="mono rounded"
                       style={{ fontSize: "10px", padding: "2px 6px", background: "rgba(255,255,255,0.07)", color: colors.textDim }}
@@ -551,9 +552,9 @@ export default function AIPRReviewerLanding() {
               </a>
             </div>
           </div>
-          <p className="text-center mt-6 text-xs mono" style={{ color: colors.textDimmer }}>
+          {/* <p className="text-center mt-6 text-xs mono" style={{ color: colors.textDimmer }}>
             Open source · MIT License
-          </p>
+          </p> */}
         </footer>
       </div>
     </div>
