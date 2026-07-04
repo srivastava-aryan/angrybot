@@ -475,7 +475,7 @@ export default function AIPRReviewerLanding() {
             <Reveal className="mt-6 screenshot-placeholder h-full flex items-center justify-center">
               {/* REPLACE WITH ACTUAL SCREENSHOT */}
               <img
-                src="./public/screenshot-placeholder.png"
+                src="/screenshot-placeholder.png"
                 alt="Real screenshot of AI PR Reviewer comment on GitHub — replace src with your own screenshot"
                 className="max-h-full max-w-full"
               />
