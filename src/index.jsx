@@ -536,7 +536,7 @@ export default function AIPRReviewerLanding() {
 
             <p className="text-sm" style={{ color: colors.textDim }}>
               Built by{" "}
-              <a href="https://github.com/srivastava-aryan" className="underline">
+              <a href="https://aryansrivastava.me" className="underline">
                 Aryan Srivastava
               </a>
             </p>
